@@ -36,4 +36,4 @@ Manage application domains.
 }
 ```
 
-See [server/api/handlers/applications/domains.go](https://github.com/corecollectives/mist/blob/main/server/api/handlers/applications/domains.go) for implementation.
+See [server/api/handlers/applications/domains.go](https://github.com/trymist/mist/blob/main/server/api/handlers/applications/domains.go) for implementation.

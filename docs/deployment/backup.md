@@ -386,7 +386,7 @@ Follow these steps to recover from total server failure:
 
 2. **Install Mist**
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/corecollectives/mist/main/install.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/trymist/mist/main/install.sh | bash
    ```
 
 3. **Stop Mist Service**
@@ -523,5 +523,5 @@ The following backup features are planned for future releases:
 
 If you encounter issues with backup or recovery:
 
-- [GitHub Issues](https://github.com/corecollectives/mist/issues)
-- [GitHub Discussions](https://github.com/corecollectives/mist/discussions)
+- [GitHub Issues](https://github.com/trymist/mist/issues)
+- [GitHub Discussions](https://github.com/trymist/mist/discussions)

@@ -324,4 +324,4 @@ WebSocket API is supported in all modern browsers:
 - Safari 7+
 - Opera 12.1+
 
-For the complete implementation, see [server/websockets](https://github.com/corecollectives/mist/tree/main/server/websockets).
+For the complete implementation, see [server/websockets](https://github.com/trymist/mist/tree/main/server/websockets).

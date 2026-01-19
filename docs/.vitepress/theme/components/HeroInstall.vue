@@ -12,7 +12,7 @@
     </div>
     <div class="hero-actions">
       <a href="/guide/getting-started" class="action-button primary">Get Started</a>
-      <a href="https://github.com/corecollectives/mist" class="action-button secondary" target="_blank">View on GitHub</a>
+      <a href="https://github.com/trymist/mist" class="action-button secondary" target="_blank">View on GitHub</a>
       <a href="https://discord.gg/hr6TCQDDkj" class="action-button discord" target="_blank">
         <svg width="20" height="20" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">

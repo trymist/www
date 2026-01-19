@@ -51,4 +51,4 @@ Returns project details including applications and members.
 }
 ```
 
-See [server/api/handlers/projects](https://github.com/corecollectives/mist/tree/main/server/api/handlers/projects) for details.
+See [server/api/handlers/projects](https://github.com/trymist/mist/tree/main/server/api/handlers/projects) for details.

@@ -237,4 +237,4 @@ For real-time deployment progress, use the WebSocket endpoint. The REST API logs
 - [WebSocket API](./websockets) - Real-time updates
 - [GitHub API](./github) - GitHub integration
 
-For the complete implementation, see [server/api/handlers/deployments](https://github.com/corecollectives/mist/tree/main/server/api/handlers/deployments) and [server/docker/deployer.go](https://github.com/corecollectives/mist/blob/main/server/docker/deployer.go).
+For the complete implementation, see [server/api/handlers/deployments](https://github.com/trymist/mist/tree/main/server/api/handlers/deployments) and [server/docker/deployer.go](https://github.com/trymist/mist/blob/main/server/docker/deployer.go).

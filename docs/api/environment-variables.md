@@ -106,4 +106,4 @@ while IFS='=' read -r key value; do
 done < .env
 ```
 
-For complete API reference, see [server/api/handlers/applications/envs.go](https://github.com/corecollectives/mist/blob/main/server/api/handlers/applications/envs.go).
+For complete API reference, see [server/api/handlers/applications/envs.go](https://github.com/trymist/mist/blob/main/server/api/handlers/applications/envs.go).

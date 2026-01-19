@@ -55,4 +55,4 @@ Returns currently authenticated user.
 }
 ```
 
-See [server/api/handlers/auth](https://github.com/corecollectives/mist/tree/main/server/api/handlers/auth) for implementation details.
+See [server/api/handlers/auth](https://github.com/trymist/mist/tree/main/server/api/handlers/auth) for implementation details.

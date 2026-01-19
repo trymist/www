@@ -21,7 +21,7 @@ export default defineConfig({
       // { text: 'API', link: '/api/overview' },
       { text: 'Deployment', link: '/deployment/installation' },
       { text: 'Troubleshooting', link: '/troubleshooting/' }
-      // { text: 'GitHub', link: 'https://github.com/corecollectives/mist' }
+      // { text: 'GitHub', link: 'https://github.com/trymist/mist' }
     ],
 
     sidebar: {
@@ -126,7 +126,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/corecollectives/mist' },
+      { icon: 'github', link: 'https://github.com/trymist/mist' },
       { icon: 'discord', link: 'https://discord.gg/kxK8XHR6' }
     ],
 

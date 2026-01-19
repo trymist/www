@@ -36,4 +36,4 @@ Returns all users in the system.
 These endpoints require admin role.
 :::
 
-See [server/api/handlers/auth/users.go](https://github.com/corecollectives/mist/blob/main/server/api/handlers/auth/users.go) for details.
+See [server/api/handlers/auth/users.go](https://github.com/trymist/mist/blob/main/server/api/handlers/auth/users.go) for details.

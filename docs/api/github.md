@@ -35,4 +35,4 @@ Returns branches for the specified repository.
 
 Receives GitHub webhook events for auto-deployment.
 
-See [server/api/handlers/github](https://github.com/corecollectives/mist/tree/main/server/api/handlers/github) for implementation.
+See [server/api/handlers/github](https://github.com/trymist/mist/tree/main/server/api/handlers/github) for implementation.

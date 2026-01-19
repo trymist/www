@@ -81,4 +81,4 @@ notifications:
 
 Target: Q2 2025
 
-[View implementation plan →](https://github.com/corecollectives/mist/blob/main/roadmap.md#notification-system)
+[View implementation plan →](https://github.com/trymist/mist/blob/main/roadmap.md#notification-system)

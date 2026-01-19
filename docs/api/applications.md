@@ -363,4 +363,4 @@ All endpoints require authentication via JWT cookie. Use `-b cookies.txt` with c
 - [Deployments API](./deployments) - Deploy applications
 - [WebSocket API](./websockets) - Real-time container logs
 
-For the complete implementation, see [server/api/handlers/applications](https://github.com/corecollectives/mist/tree/main/server/api/handlers/applications).
+For the complete implementation, see [server/api/handlers/applications](https://github.com/trymist/mist/tree/main/server/api/handlers/applications).

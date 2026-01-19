@@ -509,7 +509,7 @@ curl http://localhost:8080/api/updates/check
 ```
 
 **Via GitHub:**
-- Check [releases page](https://github.com/corecollectives/mist/releases)
+- Check [releases page](https://github.com/trymist/mist/releases)
 - Watch repository for notifications
 
 ---
@@ -605,9 +605,9 @@ tail -50 /tmp/mist-install.log
 
 ### Community Support
 
-- **GitHub Issues:** [Report update issues](https://github.com/corecollectives/mist/issues)
+- **GitHub Issues:** [Report update issues](https://github.com/trymist/mist/issues)
 - **Discord:** [Get real-time help](https://discord.gg/hr6TCQDDkj)
-- **Discussions:** [Ask questions](https://github.com/corecollectives/mist/discussions)
+- **Discussions:** [Ask questions](https://github.com/trymist/mist/discussions)
 
 ### Include in Bug Report
 

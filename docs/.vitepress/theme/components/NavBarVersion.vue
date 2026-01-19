@@ -28,7 +28,7 @@ const loading = ref(true)
 const error = ref(null)
 const releaseData = ref(null)
 
-const GITHUB_API = 'https://api.github.com/repos/corecollectives/mist/releases/latest'
+const GITHUB_API = 'https://api.github.com/repos/trymist/mist/releases/latest'
 
 const fetchLatestVersion = async () => {
   try {
