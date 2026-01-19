@@ -218,7 +218,7 @@ To update to the latest version:
 
 ```bash
 # Re-run installation script
-curl -sSL https://raw.githubusercontent.com/corecollectives/mist/main/install.sh | bash
+curl -sSL https://trymist.cloud/install.sh | bash
 ```
 
 ::: warning Destructive Update
@@ -232,7 +232,7 @@ The installation script performs `git reset --hard origin/main`, which will over
 To completely remove Mist:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/corecollectives/mist/main/uninstall.sh | bash
+curl -sSL https://raw.githubusercontent.com/trymist/mist/main/uninstall.sh | bash
 ```
 
 This will:
@@ -375,7 +375,7 @@ The installation script uses `/opt/mist` by default. To use a custom path, clone
 
 ```bash
 # Clone to custom location
-git clone https://github.com/corecollectives/mist.git /your/custom/path
+git clone https://github.com/trymist/mist.git /your/custom/path
 
 # Follow manual build steps
 cd /your/custom/path
@@ -391,7 +391,7 @@ For local development:
 
 ```bash
 # Clone repository
-git clone https://github.com/corecollectives/mist.git
+git clone https://github.com/trymist/mist.git
 cd mist
 
 # Frontend
@@ -405,7 +405,7 @@ go mod tidy
 go run main.go  # Runs on port 8080
 ```
 
-[Learn more about development setup →](https://github.com/corecollectives/mist#development)
+[Learn more about development setup →](https://github.com/trymist/mist#development)
 
 ## Security Recommendations
 

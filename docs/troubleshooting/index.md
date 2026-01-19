@@ -625,7 +625,7 @@ sudo systemctl restart mist
 ```
 
 3. **Community support:**
-- GitHub Issues: [github.com/corecollectives/mist/issues](https://github.com/corecollectives/mist/issues)
+- GitHub Issues: [github.com/trymist/mist/issues](https://github.com/trymist/mist/issues)
 - Discord: [discord.gg/kxK8XHR6](https://discord.gg/hr6TCQDDkj)
 
 4. **Gather diagnostic information:**

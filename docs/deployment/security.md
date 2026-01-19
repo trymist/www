@@ -669,9 +669,8 @@ Found a security vulnerability in Mist?
 **Please report responsibly:**
 
 1. **DO NOT** open a public GitHub issue for security vulnerabilities
-2. **DO** report via [GitHub Security Advisories](https://github.com/corecollectives/mist/security/advisories/new)
-3. **OR** email: security@corecollectives.com (if available)
-4. Include:
+2. **DO** report via [GitHub Security Advisories](https://github.com/trymist/mist/security/advisories/new)
+3. Include:
    - Description of the vulnerability
    - Steps to reproduce
    - Potential impact

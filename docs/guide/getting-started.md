@@ -150,8 +150,8 @@ Now that you have Mist running, explore these topics:
 
 ## Getting Help
 
-- [GitHub Issues](https://github.com/corecollectives/mist/issues) - Report bugs
-- [GitHub Discussions](https://github.com/corecollectives/mist/discussions) - Ask questions
+- [GitHub Issues](https://github.com/trymist/mist/issues) - Report bugs
+- [GitHub Discussions](https://github.com/trymist/mist/discussions) - Ask questions
 - [Documentation](/) - Read more guides
 
 ## What's Next?
