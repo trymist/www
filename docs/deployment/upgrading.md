@@ -21,7 +21,7 @@ See [Backup & Recovery](./backup) for complete backup procedures.
 
 - [ ] Backup database (`/var/lib/mist/mist.db`)
 - [ ] Backup SSL certificates (`/opt/mist/letsencrypt/acme.json`)
-- [ ] Check [CHANGELOG.md](https://github.com/trymist/mist/blob/main/CHANGELOG.md) for breaking changes
+- [ ] Check [CHANGELOG.md](https://github.com/corecollectives/mist/blob/main/CHANGELOG.md) for breaking changes
 - [ ] Note current deployed applications and their status
 - [ ] Have rollback plan ready
 - [ ] Schedule upgrade during low-traffic window
@@ -93,7 +93,7 @@ sqlite3 /var/lib/mist/mist.db ".backup /var/backups/mist_backup_$(date +%Y%m%d).
 sudo systemctl start mist
 
 # 2. Re-run installation script
-curl -fsSL https://raw.githubusercontent.com/trymist/mist/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/corecollectives/mist/main/install.sh | bash
 
 # 3. Verify upgrade
 sudo systemctl status mist
@@ -344,7 +344,7 @@ sudo systemctl status mist
 ```
 
 ::: danger Report Issues
-If you need to rollback, please report the issue on [GitHub Issues](https://github.com/trymist/mist/issues) with:
+If you need to rollback, please report the issue on [GitHub Issues](https://github.com/corecollectives/mist/issues) with:
 - Error logs from `journalctl -u mist`
 - What version you upgraded from/to
 - Steps that led to the problem
@@ -368,8 +368,8 @@ If you need to rollback, please report the issue on [GitHub Issues](https://gith
 
 ### Stay Updated
 
-- Watch [GitHub Releases](https://github.com/trymist/mist/releases)
-- Subscribe to [GitHub Discussions](https://github.com/trymist/mist/discussions)
+- Watch [GitHub Releases](https://github.com/corecollectives/mist/releases)
+- Subscribe to [GitHub Discussions](https://github.com/corecollectives/mist/discussions)
 - Check for security updates regularly
 
 ### Recommended Upgrade Frequency

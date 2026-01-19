@@ -57,4 +57,4 @@ Instantly revert to previous deployments.
 
 Target: Q1 2025 - Quick Win Priority
 
-[View implementation plan →](https://github.com/trymist/mist/blob/main/roadmap.md#deployment-rollback)
+[View implementation plan →](https://github.com/corecollectives/mist/blob/main/roadmap.md#deployment-rollback)

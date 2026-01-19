@@ -177,11 +177,11 @@ Mist is a **lightweight, self-hostable Platform-as-a-Service** designed for deve
 
 ## Community
 
-- [GitHub Repository](https://github.com/trymist/mist)
+- [GitHub Repository](https://github.com/corecollectives/mist)
 - [Discord Server](https://discord.gg/hr6TCQDDkj)
-- [Report Issues](https://github.com/trymist/mist/issues)
-- [Discussions](https://github.com/trymist/mist/discussions)
+- [Report Issues](https://github.com/corecollectives/mist/issues)
+- [Discussions](https://github.com/corecollectives/mist/discussions)
 
 ## License
 
-Mist is open source software licensed under the [MIT License](https://github.com/trymist/mist/blob/main/LICENSE).
+Mist is open source software licensed under the [MIT License](https://github.com/corecollectives/mist/blob/main/LICENSE).

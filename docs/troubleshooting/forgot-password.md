@@ -352,7 +352,7 @@ If you're still having trouble recovering access:
 - [Authentication](../guide/authentication) - Login and security
 
 ### Community Support
-- **GitHub Issues:** [github.com/trymist/mist/issues](https://github.com/trymist/mist/issues)
+- **GitHub Issues:** [github.com/corecollectives/mist/issues](https://github.com/corecollectives/mist/issues)
 - **Discord:** [discord.gg/kxK8XHR6](https://discord.gg/kxK8XHR6)
 
 ### Provide This Information
