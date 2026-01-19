@@ -622,7 +622,7 @@ When reporting update issues, include:
 
 ## Related Documentation
 
-- [Upgrading Guide](/deployment/upgrading) - Official upgrade documentation
-- [Common Issues](/troubleshooting/) - General troubleshooting
-- [Installation Guide](/deployment/installation) - Initial installation
-- [Backup & Recovery](/deployment/backup) - Data backup procedures
+- [Upgrading Guide](../deployment/upgrading) - Official upgrade documentation
+- [Common Issues](./) - General troubleshooting
+- [Installation Guide](../deployment/installation) - Initial installation
+- [Backup & Recovery](../deployment/backup) - Data backup procedures

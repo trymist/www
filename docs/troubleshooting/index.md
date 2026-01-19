@@ -3,8 +3,8 @@
 Common issues and solutions for Mist deployments.
 
 ::: tip Quick Links
-- [Forgot Password Recovery](/troubleshooting/forgot-password) - Reset your password using CLI
-- [Manual Update Guide](/troubleshooting/manual-update) - Update Mist manually if dashboard update fails
+- [Forgot Password Recovery](./forgot-password) - Reset your password using CLI
+- [Manual Update Guide](./manual-update) - Update Mist manually if dashboard update fails
 - [Community Support](https://discord.gg/kxK8XHR6) - Get help from the community
 :::
 
@@ -442,7 +442,7 @@ docker container prune -f
 ## Update Issues
 
 ::: tip Manual Update Available
-If you're experiencing issues with dashboard updates, you can [update manually using the install script](/troubleshooting/manual-update).
+If you're experiencing issues with dashboard updates, you can [update manually using the install script](./manual-update).
 :::
 
 ### Update Stuck in Progress
@@ -470,7 +470,7 @@ curl -X POST http://localhost:8080/api/updates/clear?id=<update_log_id> \
 curl -fsSL https://trymist.cloud/install.sh | sudo bash
 ```
 
-[→ Full Manual Update Guide](/troubleshooting/manual-update)
+[→ Full Manual Update Guide](./manual-update)
 
 ### Update Failed
 
@@ -495,7 +495,7 @@ sudo systemctl restart mist
 curl -fsSL https://trymist.cloud/install.sh | sudo bash
 ```
 
-[→ Full Manual Update Guide](/troubleshooting/manual-update)
+[→ Full Manual Update Guide](./manual-update)
 
 ---
 

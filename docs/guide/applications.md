@@ -482,7 +482,7 @@ View live container logs via WebSocket:
 - **Auto-reconnect**: Maintains connection with ping/pong
 - **Timestamps**: Each log line includes timestamp
 
-[View logs tab in dashboard or use WebSocket API](/api/websockets)
+[View logs tab in dashboard or use WebSocket API](../api/websockets)
 
 ### Deployment History
 
@@ -703,7 +703,7 @@ Investigate:
 
 ## API Reference
 
-See the [Applications API documentation](/api/applications) for programmatic access to:
+See the [Applications API documentation](../api/applications) for programmatic access to:
 
 - Create applications
 - Update configuration  

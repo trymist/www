@@ -347,9 +347,9 @@ done
 If you're still having trouble recovering access:
 
 ### Check Documentation
-- [CLI Tool Guide](/guide/cli) - Complete CLI documentation
-- [User Management](/guide/users) - User roles and permissions
-- [Authentication](/guide/authentication) - Login and security
+- [CLI Tool Guide](../guide/cli) - Complete CLI documentation
+- [User Management](../guide/users) - User roles and permissions
+- [Authentication](../guide/authentication) - Login and security
 
 ### Community Support
 - **GitHub Issues:** [github.com/trymist/mist/issues](https://github.com/trymist/mist/issues)
@@ -376,6 +376,6 @@ sudo mist-cli user list
 
 ## Related Documentation
 
-- [CLI Tool Guide](/guide/cli) - Full CLI documentation
-- [User Management](/guide/users) - Managing users and roles
-- [Common Issues](/troubleshooting/) - Other troubleshooting guides
+- [CLI Tool Guide](../guide/cli) - Full CLI documentation
+- [User Management](../guide/users) - Managing users and roles
+- [Common Issues](./) - Other troubleshooting guides

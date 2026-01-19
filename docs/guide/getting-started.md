@@ -28,7 +28,7 @@ This script will:
 3. Create systemd service for auto-start
 4. Configure firewall rules (ports 80, 443, 8080)
 
-[Learn more about installation →](/deployment/installation)
+[Learn more about installation →](../deployment/installation)
 
 ## First-Time Setup
 
@@ -61,7 +61,7 @@ To enable Git deployments:
 2. Follow the instructions to create a GitHub App
 3. Install the app on your repositories
 
-[Learn more about GitHub setup →](/deployment/github-app)
+[Learn more about GitHub setup →](../deployment/github-app)
 
 ## Deploy Your First Application
 
@@ -152,7 +152,7 @@ Now that you have Mist running, explore these topics:
 
 - [GitHub Issues](https://github.com/trymist/mist/issues) - Report bugs
 - [GitHub Discussions](https://github.com/trymist/mist/discussions) - Ask questions
-- [Documentation](/) - Read more guides
+- [Documentation](../) - Read more guides
 
 ## What's Next?
 

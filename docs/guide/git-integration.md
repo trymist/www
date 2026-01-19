@@ -6,7 +6,7 @@ Connect Mist with GitHub to enable automatic deployments.
 
 ### 1. Create GitHub App
 
-Follow the [GitHub App Setup Guide](/deployment/github-app) to create and install the Mist GitHub App.
+Follow the [GitHub App Setup Guide](../deployment/github-app) to create and install the Mist GitHub App.
 
 ### 2. Install on Repositories
 

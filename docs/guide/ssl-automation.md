@@ -187,5 +187,5 @@ You can add multiple domains to a single application:
 ## Related Documentation
 
 - [Domains Guide](./domains) - Managing application domains
-- [Traefik Configuration](/deployment/traefik) - Advanced Traefik setup
+- [Traefik Configuration](../deployment/traefik) - Advanced Traefik setup
 - [Applications](./applications) - Application management

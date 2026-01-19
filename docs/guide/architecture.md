@@ -334,4 +334,4 @@ Advanced per-container metrics (CPU, memory, network I/O) are planned for future
 ## Learn More
 
 - [Deployment Process](./deployments)
-- [Traefik Configuration](/deployment/traefik)
+- [Traefik Configuration](../deployment/traefik)

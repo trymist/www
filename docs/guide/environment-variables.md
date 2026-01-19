@@ -273,7 +273,7 @@ JWT_SECRET=your-jwt-secret
 
 Manage environment variables programmatically via the API:
 
-- [Create Variable](/api/environment-variables#create)
-- [List Variables](/api/environment-variables#list)
-- [Update Variable](/api/environment-variables#update)
-- [Delete Variable](/api/environment-variables#delete)
+- [Create Variable](./environment-variables#create)
+- [List Variables](./environment-variables#list)
+- [Update Variable](./environment-variables#update)
+- [Delete Variable](./environment-variables#delete)

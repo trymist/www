@@ -358,9 +358,9 @@ All endpoints require authentication via JWT cookie. Use `-b cookies.txt` with c
 
 ## Related Endpoints
 
-- [Environment Variables API](/api/environment-variables) - Manage app environment variables
-- [Domains API](/api/domains) - Manage app domains
-- [Deployments API](/api/deployments) - Deploy applications
-- [WebSocket API](/api/websockets) - Real-time container logs
+- [Environment Variables API](./environment-variables) - Manage app environment variables
+- [Domains API](./domains) - Manage app domains
+- [Deployments API](./deployments) - Deploy applications
+- [WebSocket API](./websockets) - Real-time container logs
 
 For the complete implementation, see [server/api/handlers/applications](https://github.com/corecollectives/mist/tree/main/server/api/handlers/applications).
