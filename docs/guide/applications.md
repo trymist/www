@@ -4,7 +4,7 @@ Applications are the core deployable units in Mist. Each application represents 
 
 ## Application Types
 
-Mist supports three distinct application types:
+Mist supports four distinct application types:
 
 ### Web Applications (`web`)
 
@@ -41,6 +41,20 @@ Managed database services using pre-configured Docker templates:
 
 **Use cases**: PostgreSQL, MySQL, Redis, MongoDB, or any other database service
 
+### Docker Compose Applications (`compose`)
+
+Multi-container applications defined by a `docker-compose.yml` file:
+
+- **Multi-service** - Deploy multiple containers as a single app
+- **Docker Compose** - Uses native `docker compose up` command
+- **Git-based deployments** - Clones repo containing docker-compose.yml
+- **Aggregated status** - Shows running count for all services
+- **Combined logs** - View logs from all containers
+
+**Use cases**: Complex stacks, microservices, apps with databases/caches, development environments
+
+[Learn more about Docker Compose apps →](./docker-compose)
+
 ## Creating an Application
 
 ### Via Dashboard
@@ -51,6 +65,7 @@ Managed database services using pre-configured Docker templates:
    - **Web** - For public-facing applications
    - **Service** - For background workers
    - **Database** - For managed database services
+   - **Docker Compose** - For multi-container applications
 4. Fill in the required fields based on type
 
 ### Web/Service Configuration
@@ -717,4 +732,5 @@ See the [Applications API documentation](../api/applications) for programmatic a
 - [Environment Variables](./environment-variables) - Configure applications
 - [Domains](./domains) - Add custom domains
 - [Git Integration](./git-integration) - Connect GitHub repositories
+- [Docker Compose](./docker-compose) - Multi-container deployments
 - [Logs](./logs) - Monitor application logs

@@ -43,6 +43,7 @@ export default defineConfig({
             { text: 'Environment Variables', link: '/guide/environment-variables' },
             { text: 'Domains & SSL', link: '/guide/domains' },
             { text: 'Git Integration', link: '/guide/git-integration' },
+            { text: 'Docker Compose', link: '/guide/docker-compose' },
             { text: 'Database Services', link: '/guide/databases' },
             { text: 'SSL Automation', link: '/guide/ssl-automation' },
           ]

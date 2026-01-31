@@ -6,7 +6,7 @@ Manage applications programmatically. All endpoints require authentication via J
 
 `POST /api/apps/create`
 
-Creates a new application in a project. Supports three app types: `web`, `service`, and `database`.
+Creates a new application in a project. Supports four app types: `web`, `service`, `database`, and `compose`.
 
 ### Request Body
 
@@ -39,12 +39,23 @@ Creates a new application in a project. Supports three app types: `web`, `servic
 }
 ```
 
+**For compose apps**, use:
+
+```json
+{
+  "name": "my-stack",
+  "description": "Multi-container application",
+  "projectId": 1,
+  "appType": "compose"
+}
+```
+
 ### Parameters
 
 - `name` (required): Application name
 - `description` (optional): Application description
 - `projectId` (required): ID of the project
-- `appType` (optional): One of `web`, `service`, or `database` (defaults to `web`)
+- `appType` (optional): One of `web`, `service`, `database`, or `compose` (defaults to `web`)
 - `port` (optional): Port number for web apps (defaults to 3000)
 - `templateName` (required for database apps): Template name (e.g., `postgresql`, `mysql`, `redis`, `mongodb`)
 - `envVars` (optional): Key-value map of environment variables
@@ -183,8 +194,10 @@ All fields are optional. Only include fields you want to update:
 - `appId` (required): Application ID to update
 - `name`: Application name
 - `description`: Application description
-- `gitRepository`: Git repository URL
+- `gitProviderId`: ID of linked git provider (null for public git)
+- `gitRepository`: Git repository name (e.g., `user/repo` for GitHub)
 - `gitBranch`: Git branch name
+- `gitCloneUrl`: Full clone URL for public git repositories (e.g., `https://github.com/user/repo.git`)
 - `port`: Application port
 - `rootDirectory`: Root directory for builds
 - `dockerfilePath`: Path to Dockerfile
@@ -193,6 +206,10 @@ All fields are optional. Only include fields you want to update:
 - `cpuLimit`: CPU limit in cores (e.g., 1.0, 2.0)
 - `memoryLimit`: Memory limit in MB (e.g., 512, 1024)
 - `restartPolicy`: One of `no`, `always`, `on-failure`, `unless-stopped`
+
+::: tip Public Git URL
+Use `gitCloneUrl` to deploy from any public repository without setting up a GitHub App. Set `gitProviderId` to `null` when using public git.
+:::
 
 ### Response
 

@@ -119,7 +119,7 @@ Mist is a **lightweight, self-hostable Platform-as-a-Service** designed for deve
 | **UI Framework** | React | Vue.js | React | Angular | Web + CLI |
 | **Git Providers** | GitHub only | Multi-provider | Multi-provider | Multi-provider | Multi-provider |
 | **One-click Upgrade** | ✓ Built-in | ✓ Built-in | ✓ Built-in | ✓ Built-in | ~ CLI only |
-| **Docker Compose** | ✗ Not supported | ✓ Full support | ✓ Full support | ~ Limited | ~ Via plugins |
+| **Docker Compose** | ✓ Full support | ✓ Full support | ✓ Full support | ~ Limited | ~ Via plugins |
 | **S3 Backups** | ✗ Not available | ✓ Automated | ✓ Automated | ~ Manual | ✗ Not available |
 | **Template Library** | ✗ Coming soon | ✓ Extensive | ✓ Available | ✓ One-click apps | ~ Limited |
 | **GitHub Integration** | ✓ Native | ✓ Native | ✓ Native | ~ Basic | ~ Via plugins |
@@ -153,7 +153,6 @@ Mist is a **lightweight, self-hostable Platform-as-a-Service** designed for deve
 - **No High Availability** - Single node deployment only. Not suitable for mission-critical production workloads requiring 99.99% uptime
 - **Limited Container Orchestration** - No Kubernetes support. Uses basic Docker containers without advanced orchestration
 - **Single Git Provider** - Currently only supports GitHub. GitLab and Bitbucket support planned for future releases
-- **No Docker Compose Support** - Cannot deploy docker-compose.yml files directly. Requires Dockerfile-based deployments only
 - **No Automated Backups** - Missing S3/cloud storage integration for automatic database and application backups
 - **Limited Template Library** - No pre-built application templates or one-click deployments (coming soon)
 - **No Database Clustering** - Provisioned databases run as single containers without replication or clustering
@@ -165,7 +164,7 @@ Mist is a **lightweight, self-hostable Platform-as-a-Service** designed for deve
 <div class="important-notes">
 
 ::: info Important Note
-**Mist is not a drop-in replacement for Coolify, Dokploy, or other platforms.** We are a lightweight alternative focused on simplicity and minimal resource usage. If you need advanced features like Docker Compose support, multi-git providers, or high availability right now, consider using the more established alternatives above. However, these features are on our roadmap and will be available in Mist soon.
+**Mist is not a drop-in replacement for Coolify, Dokploy, or other platforms.** We are a lightweight alternative focused on simplicity and minimal resource usage. If you need advanced features like multi-git providers or high availability right now, consider using the more established alternatives above. However, these features are on our roadmap and will be available in Mist soon.
 :::
 
 ::: tip Fast Growing

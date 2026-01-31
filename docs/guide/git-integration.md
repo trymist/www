@@ -21,6 +21,46 @@ Install the GitHub App on repositories you want to deploy:
 
 Once installed, repositories appear in the application creation form.
 
+## Public Git Repository
+
+Deploy directly from any public Git repository without setting up a GitHub App.
+
+### Supported Providers
+
+Public Git works with any Git hosting service:
+
+- GitHub (public repos)
+- GitLab
+- Bitbucket
+- Gitea
+- Self-hosted Git servers
+- Any URL accessible via `git clone`
+
+### Configuration
+
+1. Go to your application's **Sources** tab
+2. Select **Public Git** tab
+3. Enter the **Git URL** (e.g., `https://github.com/user/repo.git`)
+4. Enter the **Branch** name (default: `main`)
+5. Click **Save Configuration**
+
+### Example URLs
+
+```
+https://github.com/username/repository.git
+https://gitlab.com/username/project.git
+https://bitbucket.org/username/repo.git
+https://git.example.com/user/repo.git
+```
+
+::: tip No Authentication Required
+Public Git deployments clone the repository directly without authentication. This is ideal for open-source projects or public repositories where you don't need webhook-based auto-deploy.
+:::
+
+::: warning Manual Deployments Only
+Public Git repositories don't receive webhook events. You must manually trigger deployments from the dashboard when you want to deploy new changes.
+:::
+
 ## Auto-Deploy on Push
 
 Enable automatic deployments:
