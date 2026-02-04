@@ -20,7 +20,8 @@ export default defineConfig({
       { text: 'Guide', link: '/guide/getting-started' },
       // { text: 'API', link: '/api/overview' },
       { text: 'Deployment', link: '/deployment/installation' },
-      { text: 'Troubleshooting', link: '/troubleshooting/' }
+      { text: 'Troubleshooting', link: '/troubleshooting' },
+      { text: 'Changelog', link: '/changelog' }
       // { text: 'GitHub', link: 'https://github.com/trymist/mist' }
     ],
 
