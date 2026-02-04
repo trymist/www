@@ -6,7 +6,7 @@
   "scripts": {
     "sync-changelog": "node scripts/fetch-changelog.js",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "npm run sync-changelog && vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "keywords": ["mist", "paas", "documentation", "self-hosted"],
