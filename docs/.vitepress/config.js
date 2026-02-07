@@ -129,7 +129,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/trymist/mist' },
-      { icon: 'discord', link: 'https://discord.gg/kxK8XHR6' }
+      { icon: 'discord', link: 'https://discord.gg/hr6TCQDDkj' }
     ],
 
     footer: {
